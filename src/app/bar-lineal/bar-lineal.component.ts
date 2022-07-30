@@ -10,7 +10,7 @@ export class BarLinealComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    const speedCanvas = document.getElementById('speedChart');
+    const speedCanvas = document.getElementById('chart-lineal');
 
     const speedData = {
       labels: ['25/05/2021', '26/05/2021', '27/05/2021', '28/05/2021'],
