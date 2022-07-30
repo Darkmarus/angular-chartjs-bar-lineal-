@@ -39,17 +39,6 @@ export class BarLinealComponent implements OnInit {
       ],
     };
 
-    var chartOptions = {
-      legend: {
-        display: true,
-        position: 'top',
-        labels: {
-          boxWidth: 80,
-          fontColor: 'black',
-        },
-      },
-    };
-
     var lineChart = new Chart(speedCanvas as any, {
       type: 'line',
       data: speedData,
